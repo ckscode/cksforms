@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Job application form</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="background.jpg">
+      <a href="Formcontents.html#contents">Back to contents</a>
+      <br /><br /><br />
+      <table align="center" bgcolor="#f5f5f5" cellpadding="20">
+        <tr>
+          <td>
+            <h2>Job Application</h2>
+            <br>
+            <form method="post" enctype="multipart/form-data" >
+              Name*<br />
+              <input
+                type="text"
+                name="txtFirstname"
+                placeholder="First name"
+                required
+              />&emsp;
+              <input
+                type="text"
+                name="txtLastname"
+                placeholder="Last name"
+              /><br />
+              <br /><br />
+              Email*
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;Phone*<br />
+              <input
+                type="email"
+                name="usUsername"
+                height="20px"
+                required
+              />&emsp;
+              <input
+                type="text"
+                name="mobilenumber"
+                height="20px"
+                required
+              /><br /><br /><br /><br />
+              Job you are applying for?*&emsp;&emsp;Available start date*<br />
+              <select name="jbdepartment" required>
+                <option value="">--select--</option>
+                <option value="job1">SEO Engineer</option>
+                <option value="job2">Web Developer</option>
+                <option value="job3">Ui/Ux designer</option>
+                <option value="job4">Data Analyst</option>
+                <option value="job5">Marketing</option></select
+              >&emsp;&emsp;&emsp;&emsp;&emsp;
+              <input type="date" name="jbdate" />
+              <br /><br /><br />
+              <strong>Current job status*</strong><br />
+              <input type="radio" name="emstatus" value="employed" required />Employed<br />
+              <input type="radio" name="emstatus" value="selfemployed" required />Self-employed<br />
+              <input type="radio" name="emstatus" value="unemployed" required />Unemployed<br />
+              <input type="radio" name="emstatus" value="student" required />Student<br />
+              <br /><br />
+              <fieldset>
+              <strong>Relevant experiences</strong><br><br>
+              Job title<br>
+              <input type="text" name="reljob"><br><br>
+              Company<br>
+              <input type="text" name="reljobcomp"><br><br>
+              </fieldset><br><br />
+              submit by providing resume url:<br />
+              <input type="text" name="rsurl" size="25" /><br />
+              &emsp; &emsp; &emsp; &emsp; or &emsp; &emsp; &emsp; &emsp;<br />
+              Upload file:
+              <input type="file" name="jbresume" /><br /><br /><br /><br />
+               What is the highest level of degree you have completed<br />
+                 <select name="highestedu" required>
+                <option value="">--select--</option>
+                <option value="sec">Secondary(10th pass)</option>
+                <option value="highsec">Higher Secondary(12th pass)</option>
+                <option value="bach">Bachelor's</option>
+                <option value="mas">Master's</option>
+                <option value="doct">Doctorate</option></select
+              >
+            <br /><br /><br />
+            Please Mention some available dates for interview<br>
+            <input type="number" name="availdateint" required ><br /><br>
+            <br /><br>
+              &emsp; &emsp; &emsp; &emsp; &emsp;&ensp;&ensp;
+              <button type="submit">Apply for the job</button>
+              &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&nbsp;&ensp;
+            </form>
+          </td>
+        </tr>
+      </table>
+      ><br /><br /><br />
+    </body>
+  </html>
+</doctype>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loan Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+  <body background="background.jpg">
+    <a href="Formcontents.html#contents">Back to contents</a>
+    <table align="center" cellpadding="30">
+      <tr>
+        <br /><br /><br /><br />
+        <td bgcolor="#f5f5f5">
+          <legend><h1>Loan Application Form</h1></legend><br>
+          <form method="post" >
+            Full Name*
+            <br />
+            <select name="designation" required>
+              <option value="mr">Mr</option>
+              <option value="mrs">Mrs</option>
+              <option value="ms">Ms</option>
+            </select>
+            <input
+              type="text"
+              name="txtFirstname"
+              placeholder="First name"
+              size="27"
+              required
+            />&emsp;
+            <input
+              type="text"
+              name="txtLastname"
+              size="27"
+              placeholder="Last name"
+            /><br /><br>
+            <br />
+            Email*
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;Mobile*<br />
+            <input type="email" name="usUsername" size="30" required />&emsp;
+            <input
+              type="text"
+              name="mobilenumber"
+              size="30"
+              required
+            /><br /><br /><br>
+            Birth Date<br />
+            <input type="date" name="birthdate" /><br /><br /><br>
+            <strong>Type of ID</strong><br />
+            <input
+              type="radio"
+              name="lnidtype"
+              value="passport"
+              required
+            />Passport<br />
+            <input
+              type="radio"
+              name="lnidtype"
+              value="drivinglicence"
+              required
+            />Driving Licence<br />
+            <input type="radio" name="lnidtype" value="voterid" required />Voter
+            ID<br />
+            <input type="radio" name="lnidtype" value="ssn" required />Social
+            Security Number
+            <br />
+            <input type="radio" name="lnidtype" value="other" required />
+            <input type="text" name="lnidtype" placeholder="other" required />
+            <br />
+            <br /><br>
+            ID Number<br />
+            <input type="text" name="lnidnumber" required />
+            <br /><br /><br>
+            <h3>Home Address</h3>
+            Address line 1:*<br />
+            <input type="text" name="lnhmaddress1" size="50" required /><br />
+            <br />
+            Address line 2:*<br />
+            <input type="text" name="lnhmaddress2" size="50" required /><br />
+            <br />
+            City*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;State*<br />
+            <input type="text" name="lnhmcity" required />&emsp;
+            <input type="text" name="lnhmstate" required />
+            <br /><br />
+            Postal code*<br />
+            <input type="text" name="pincode" /><br /><br />
+            <br /><br>
+            <strong>Property Ownership</strong><br />
+            <input
+              type="radio"
+              name="lnpropertystatus"
+              value="owned"
+              required
+            />Owned<br />
+            <input type="radio" name="lnpropertystatus" value="rent" />Rent
+            <br /><br /><br>
+            <strong>Marital Status</strong><br />
+            <input
+              type="radio"
+              name="lnmaritalstatus"
+              value="single"
+              required
+            />Single<br />
+            <input type="radio" name="lnmaritalstatus" value="married" />Married
+            <br />
+            <input
+              type="radio"
+              name="lnmaritalstatus"
+              value="divorced"
+            />Divorced<br />
+            <input type="radio" name="lnmaritalstatus" value="widowed" />Widowed
+            <br /><br /><br>
+            Place of work *
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Job
+            title*<br />
+            <input type="text" name="lnplaceofwork" size="30" required />&emsp;
+            <input type="text" name="lnplaceofwork" size="30" required />
+
+            <br /><br />
+            <strong> Work Address</strong><br /><br />
+            Address line 1:*<br />
+            <input type="text" name="lnwkaddress1" size="50" required /><br />
+            <br />
+            Address line 2:*<br />
+            <input type="text" name="lnwkaddress2" size="50" required /><br />
+            <br />
+            City*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;State/Province*<br />
+            <input type="text" name="lnwkcity" required />
+            &emsp;
+            <input type="text" name="lnwkstate" required />
+            <br /><br />
+            Postal code*<br />
+            <input type="text" name="lnpincode" required /><br /><br /><br>
+            Years Employed<br />
+            <input
+              type="text"
+              name="lnyrsemployed"
+              placeholder="ex:23"
+              required
+            /><br /><br /><br>
+            Monthly Net Income<br />
+            <input type="text" name="lnmonthlyincome" required /><br />
+            in &#8377<br /><br /><br>
+
+            <hr>
+            <h1>Financial References</h1>
+            <hr>
+            <br><br>
+            Bank Name<br>
+             <input
+              type="text"
+              name="lnbankname"
+              size="40"
+              required
+            /><br /><br /><br>
+            Branch Name<br>
+             <input
+              type="text"
+              name="lnbranchname"
+              size="40"
+              required
+            /><br /><br /><br>
+            Account Number<br>
+             <input
+              type="text"
+              name="lnaccountno"
+              size="40"
+              required
+            /><br /><br /><br>
+            <strong>Account Type</strong><br />
+            <input
+              type="radio"
+              name="lnaccounttype"
+              value="lncurrent"
+              required
+            />Current<br />
+            <input type="radio" name="lnaccounttype" value="lnsavings" />Savings
+            <br />
+             <input type="radio" name="lnaccounttype" value="other" />
+             <input type="text" name="lnaccounttype" placeholder="other" /><br><br /><br>
+              <hr>
+            <h1>Loan Details</h1>
+            <hr>
+            <br><br>
+            <strong>Purpose of Personal Loan</strong><br />
+           
+            <input
+              type="radio"
+              name="lnpurpose"
+              value="vehicle"
+              required
+            />Purchase of vehicle<br />
+            <input type="radio" name="lnpurpose" value="office equipment" required />Purchase of office equipment<br />
+            <input type="radio" name="lnpurpose" value="travel" required />Travel
+            <br />
+             <input
+              type="radio"
+              name="lnpurpose"
+              value="takeoverexsloan"
+              required
+            />Takeover of existing personal loan<br />
+            <input type="radio" name="lnpurpose" value="other" required />
+            <input type="text" name="lnpurpose" placeholder="other" required /><br>
+            <br /><br><br>
+            Requested Personal Loan Amount<br />
+            <input type="text" name="lnloanamt" required /><br />
+            in &#8377<br /><br /><br>
+             Terms in(months)<br />
+            <input
+              type="text"
+              name="lntermsin"
+              placeholder="ex:23"
+              required
+            /><br /><br /><br><br>
+            <hr>
+            <h1>Liabilities</h1>
+            <hr>
+            <br><br>
+            <P>List below all liabilities & indebtedness to banks, credit unions, stores,<br> finance companies, individuals and other creditors, including obligations<br> to pay alimony, child support,separate maintenance,
+rent, mortgages, etc.</P><br><br>
+            Creditors&emsp; &emsp; &emsp;&emsp; &emsp; &emsp; Liabilities&emsp; &emsp; &emsp; &emsp; &emsp;&ensp;&nbsp;Monthly Payments<br>
+            <textarea name="creditors" rows="3" cols="20"></textarea>
+            <textarea name="liabilities" rows="3" cols="20"></textarea>
+            <textarea name="monthlypayments" rows="3" cols="20"></textarea>
+            <br><br><br><br>
+               <hr>
+            <h1>Guarantor</h1>
+            <hr>
+            <br><br>
+             Full Name*
+            <br />
+            <select name="gndesignation" required>
+              <option value="mr">Mr</option>
+              <option value="mrs">Mrs</option>
+              <option value="ms">Ms</option>
+            </select>
+            <input
+              type="text"
+              name="gnFirstname"
+              placeholder="First name"
+              size="27"
+              required
+            />&emsp;
+            <input
+              type="text"
+              name="gnLastname"
+              size="27"
+              placeholder="Last name"
+            /><br />
+            <br /><br><br>
+            Email*
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&nbsp;Mobile*<br />
+            <input type="email" name="gnemail" size="30" required />&emsp;
+            <input
+              type="text"
+              name="gnmobilenumber"
+              size="30"
+              required
+            /><br /><br /><br>
+            Relationship with Applicant<br>
+            <input type="text" name="gnrelation" required><br><br>
+               <strong> Work Address</strong><br /><br /><br>
+            Address line 1:*<br />
+            <input type="text" name="gnaddress1" size="50" required /><br />
+            <br />
+            Address line 2:*<br />
+            <input type="text" name="gnaddress2" size="50" required /><br />
+            <br />
+            City*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;State/Province*<br />
+            <input type="text" name="gncity" required />
+            &emsp;
+            <input type="text" name="gnstate" required />
+            <br /><br />
+            Postal code*<br />
+            <input type="text" name="gnpincode" required /><br /><br /><br>
+            Monthly Net Income<br />
+            <input type="text" name="gnmonthlyincome" required /><br />
+            in &#8377<br /><br /><br>
+            <strong>Type of ID</strong><br />
+            <input
+              type="radio"
+              name="gnidtype"
+              value="passport"
+              required
+            />Passport<br />
+            <input
+              type="radio"
+              name="gnidtype"
+              value="drivinglicence"
+              required
+            />Driving Licence<br />
+            <input type="radio" name="gnidtype" value="voterid" required />Voter
+            ID<br />
+            <input type="radio" name="gnidtype" value="ssn" required />Social
+            Security Number
+            <br />
+            <input type="radio" name="gnidtype" value="other" required />
+            <input type="text" name="gnidtype" placeholder="other" required />
+            <br />
+            <br /><br>
+            ID Number<br />
+            <input type="text" name="gnidnumber" required />
+            <br /><br /><br>
+               <hr>
+            <h1>Signatures</h1>
+            <hr>
+            <br><br>
+            <p>Everything that I have stated in this application is correct
+                 to the best of<br> my knowledge. I understand that you will retain
+                  this application whether or <br>not loan is approved. You are 
+                  authorized to check my credit and employment <br>history and to
+                   answer questions about your credit experience with me.</p>
+                   <br><br><br><br>
+                   Applicant's signature &emsp; &emsp; &emsp; &emsp;Guarantor's signature<br>
+                   <textarea rows="3" cols="20"></textarea> &emsp; &emsp; 
+                   <textarea rows="3" cols="20"></textarea>
+                   <br><br><br><br>
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; 
+            <button type="submit"><font size="3"> &emsp; &emsp; &emsp;Submit &emsp; &emsp; &emsp;</font></button>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
